@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ES">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú lateral responsive - MagtimusPro</title>
+
+    
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <link rel="stylesheet" href="css/personal.css" />
+    <link rel="stylesheet" href="css/estilos.css">
+<body id="body">
+    
+    <header>
+        <div class="icon__menu">
+            <i class="fas fa-bars" id="btn_open"></i>
+        </div>
+        
+        
+    </header>
+
+    <div class="menu__side" id="menu_side">
+
+        <div class="name__page">
+            <i class="fab fa-youtube"></i>
+        </div>
+
+        <div class="options__menu">	
+
+            <a href="#" class="selected">
+                <div class="option">
+                    <i class="fas fa-home" title="Inicio"></i>
+                    <h4>Clientes</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="far fa-file" title="Portafolio"></i>
+                    <h4>Facturas</h4>
+                </div>
+            </a>
+            
+            <a href="#">
+                <div class="option">
+                    <i class="fas fa-video" title="Cursos"></i>
+                    <h4>Abonos</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="far fa-sticky-note" title="Blog"></i>
+                    <h4>Configuraciones</h4>
+                </div>
+            </a>
+
+            <a href="#">
+                <div class="option">
+                    <i class="far fa-id-badge" title="Buscar"></i>
+                    <h4>Contacto</h4>
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <main>
+        <div class="img_titulo">
+            <img src="img/tituloapp.svg" alt="" srcset="">
+            
+        </div>
+       
+        <div class="row" id="row1">
+            <div class="card">
+    
+                <form id="newForm">
+                    <!-- 2 column grid layout with text inputs for the first and last names -->
+                    <div class="row mb-4 mt-3">
+                      <div class="col">
+                        <div class="form-outline">
+                          <input type="text" id="txtNom" class="form-control" />
+                          <label class="form-label" for="txtNom">Nombre</label>
+                        </div>
+                      </div>
+                      <div  class="col">
+                        <div class="form-outline">
+                          <input type="text" id="txtAp" class="form-control" />
+                          <label class="form-label" for="txtAp">Apellido</label>
+                        </div>
+                      </div>
+                    </div>
+                  
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                      <input type="text" id="txtPhone" class="form-control" />
+                      <label class="form-label" for="txtPhone">Telefono</label>
+                    </div>
+                  
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                      <input type="text" id="txtUbicacion" class="form-control" />
+                      <label class="form-label" for="txtPass">Ubicacion</label>
+                    </div>
+                  
+                    <!-- Checkbox -->
+                  
+                    <!-- Submit button -->
+                    <div class="container_btn">
+                        <button id="guardarBtn"  type="submit" class="btn btn-primary btn-block mb-4" >Registrar Cliente</button>
+                    </div>
+                  
+                    
+                   
+                  </form>
+    
+            </div>
+    
+          </div>
+    
+          <div class="row " id="row2">
+            <div class="card">
+              <table class="table caption-top">
+                <caption>Usuarios registrados</caption>
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nombre</th>
+                    <th scope="col">Apellido</th>
+                    <th scope="col">Telefono</th>
+                  </tr>
+                </thead>
+    
+                <tbody id="registros">
+                  
+                </tbody>
+              </table>
+            </div>
+          </div>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

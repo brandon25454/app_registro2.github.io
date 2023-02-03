@@ -1,0 +1,65 @@
+body{
+    align-items: center;
+}
+#row1{
+    margin: 60px auto;
+    height: 60%;;
+    width: 60%;
+}
+
+.card{
+    background-color: #8b8bb23e;
+}
+
+
+.navbar-brand{
+    color: white;
+}
+.navbar-nav .nav-item a{
+    color: white;
+    
+}
+.navbar-nav .nav-link.active{
+    color: white;
+}
+.btn-outline-primary{
+    color: white;
+}
+.container_btn{
+    margin-top: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#guardarBtn{
+    width: 70%;
+}
+
+#txtAp,#txtNom,#txtPhone,#txtUbicacion{
+    background: rgba(46, 132, 229, 0.091);
+    
+}
+
+#row2{
+    margin: 80px auto;
+    height: 60%;
+    width: 60%;
+}
+.card{
+    padding: 20px;
+}
+@media screen and (max-width: 760px){
+    #row1{
+        margin: 60px auto;
+        height: 60%;;
+        width: 100%;
+    }
+    #row2{
+        display: none;
+        margin: 80px auto;
+        height: 60%;
+        width: 100%;
+    }
+    
+}
